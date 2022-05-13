@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E58B525282CD8740069B937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58B524282CD8740069B937 /* AppDelegate.swift */; };
+		7E58B527282CD8740069B937 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58B526282CD8740069B937 /* SceneDelegate.swift */; };
+		7E58B529282CD8740069B937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58B528282CD8740069B937 /* ViewController.swift */; };
+		7E58B52C282CD8740069B937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58B52A282CD8740069B937 /* Main.storyboard */; };
+		7E58B52E282CD8760069B937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E58B52D282CD8760069B937 /* Assets.xcassets */; };
+		7E58B531282CD8760069B937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E58B52F282CD8760069B937 /* LaunchScreen.storyboard */; };
+		7E58B53C282CD8770069B937 /* SampleCernerFHIRAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58B53B282CD8770069B937 /* SampleCernerFHIRAppTests.swift */; };
+		7E58B546282CD8770069B937 /* SampleCernerFHIRAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58B545282CD8770069B937 /* SampleCernerFHIRAppUITests.swift */; };
+		7E58B548282CD8770069B937 /* SampleCernerFHIRAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58B547282CD8770069B937 /* SampleCernerFHIRAppUITestsLaunchTests.swift */; };
+		7E58B564282CDB380069B937 /* SMART.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E58B55C282CDAA20069B937 /* SMART.framework */; };
+		7E58B565282CDB380069B937 /* SMART.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7E58B55C282CDAA20069B937 /* SMART.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E58B538282CD8770069B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E58B519282CD8740069B937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E58B520282CD8740069B937;
+			remoteInfo = SampleCernerFHIRApp;
+		};
+		7E58B542282CD8770069B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E58B519282CD8740069B937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E58B520282CD8740069B937;
+			remoteInfo = SampleCernerFHIRApp;
+		};
+		7E58B55B282CDAA20069B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE43B1A919546D880017679A;
+			remoteInfo = "SwiftSMART-iOS";
+		};
+		7E58B55D282CDAA20069B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE43B1B319546D880017679A;
+			remoteInfo = "SwiftSMART-iOSTests";
+		};
+		7E58B55F282CDAA20069B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EECAA7831A5D3DE60062C64B;
+			remoteInfo = "SwiftSMART-macOS";
+		};
+		7E58B561282CDAA20069B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE13AA921A5D44D100B901FD;
+			remoteInfo = "SwiftSMART-macOSTests";
+		};
+		7E58B567282CDB4B0069B937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE43B1A819546D880017679A;
+			remoteInfo = "SwiftSMART-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E58B566282CDB380069B937 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7E58B565282CDB380069B937 /* SMART.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7E58B521282CD8740069B937 /* SampleCernerFHIRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCernerFHIRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E58B524282CD8740069B937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E58B526282CD8740069B937 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E58B528282CD8740069B937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E58B52B282CD8740069B937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E58B52D282CD8760069B937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E58B530282CD8760069B937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E58B532282CD8760069B937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E58B537282CD8770069B937 /* SampleCernerFHIRAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCernerFHIRAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E58B53B282CD8770069B937 /* SampleCernerFHIRAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCernerFHIRAppTests.swift; sourceTree = "<group>"; };
+		7E58B541282CD8770069B937 /* SampleCernerFHIRAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCernerFHIRAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E58B545282CD8770069B937 /* SampleCernerFHIRAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCernerFHIRAppUITests.swift; sourceTree = "<group>"; };
+		7E58B547282CD8770069B937 /* SampleCernerFHIRAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCernerFHIRAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSMART.xcodeproj; path = "Swift-SMART/SwiftSMART.xcodeproj"; sourceTree = "<group>"; };
+		7E58B56C282D3A960069B937 /* SampleCernerFHIRApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleCernerFHIRApp.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E58B51E282CD8740069B937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E58B564282CDB380069B937 /* SMART.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E58B534282CD8770069B937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E58B53E282CD8770069B937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E58B518282CD8740069B937 = {
+			isa = PBXGroup;
+			children = (
+				7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */,
+				7E58B523282CD8740069B937 /* SampleCernerFHIRApp */,
+				7E58B53A282CD8770069B937 /* SampleCernerFHIRAppTests */,
+				7E58B544282CD8770069B937 /* SampleCernerFHIRAppUITests */,
+				7E58B522282CD8740069B937 /* Products */,
+				7E58B563282CDB380069B937 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E58B522282CD8740069B937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E58B521282CD8740069B937 /* SampleCernerFHIRApp.app */,
+				7E58B537282CD8770069B937 /* SampleCernerFHIRAppTests.xctest */,
+				7E58B541282CD8770069B937 /* SampleCernerFHIRAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E58B523282CD8740069B937 /* SampleCernerFHIRApp */ = {
+			isa = PBXGroup;
+			children = (
+				7E58B56C282D3A960069B937 /* SampleCernerFHIRApp.entitlements */,
+				7E58B524282CD8740069B937 /* AppDelegate.swift */,
+				7E58B526282CD8740069B937 /* SceneDelegate.swift */,
+				7E58B528282CD8740069B937 /* ViewController.swift */,
+				7E58B52A282CD8740069B937 /* Main.storyboard */,
+				7E58B52D282CD8760069B937 /* Assets.xcassets */,
+				7E58B52F282CD8760069B937 /* LaunchScreen.storyboard */,
+				7E58B532282CD8760069B937 /* Info.plist */,
+			);
+			path = SampleCernerFHIRApp;
+			sourceTree = "<group>";
+		};
+		7E58B53A282CD8770069B937 /* SampleCernerFHIRAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E58B53B282CD8770069B937 /* SampleCernerFHIRAppTests.swift */,
+			);
+			path = SampleCernerFHIRAppTests;
+			sourceTree = "<group>";
+		};
+		7E58B544282CD8770069B937 /* SampleCernerFHIRAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E58B545282CD8770069B937 /* SampleCernerFHIRAppUITests.swift */,
+				7E58B547282CD8770069B937 /* SampleCernerFHIRAppUITestsLaunchTests.swift */,
+			);
+			path = SampleCernerFHIRAppUITests;
+			sourceTree = "<group>";
+		};
+		7E58B555282CDAA20069B937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E58B55C282CDAA20069B937 /* SMART.framework */,
+				7E58B55E282CDAA20069B937 /* SwiftSMART-iOSTests.xctest */,
+				7E58B560282CDAA20069B937 /* SMART.framework */,
+				7E58B562282CDAA20069B937 /* SwiftSMART-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E58B563282CDB380069B937 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E58B520282CD8740069B937 /* SampleCernerFHIRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E58B54B282CD8770069B937 /* Build configuration list for PBXNativeTarget "SampleCernerFHIRApp" */;
+			buildPhases = (
+				7E58B51D282CD8740069B937 /* Sources */,
+				7E58B51E282CD8740069B937 /* Frameworks */,
+				7E58B51F282CD8740069B937 /* Resources */,
+				7E58B566282CDB380069B937 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E58B568282CDB4B0069B937 /* PBXTargetDependency */,
+			);
+			name = SampleCernerFHIRApp;
+			productName = SampleCernerFHIRApp;
+			productReference = 7E58B521282CD8740069B937 /* SampleCernerFHIRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E58B536282CD8770069B937 /* SampleCernerFHIRAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E58B54E282CD8770069B937 /* Build configuration list for PBXNativeTarget "SampleCernerFHIRAppTests" */;
+			buildPhases = (
+				7E58B533282CD8770069B937 /* Sources */,
+				7E58B534282CD8770069B937 /* Frameworks */,
+				7E58B535282CD8770069B937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E58B539282CD8770069B937 /* PBXTargetDependency */,
+			);
+			name = SampleCernerFHIRAppTests;
+			productName = SampleCernerFHIRAppTests;
+			productReference = 7E58B537282CD8770069B937 /* SampleCernerFHIRAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E58B540282CD8770069B937 /* SampleCernerFHIRAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E58B551282CD8770069B937 /* Build configuration list for PBXNativeTarget "SampleCernerFHIRAppUITests" */;
+			buildPhases = (
+				7E58B53D282CD8770069B937 /* Sources */,
+				7E58B53E282CD8770069B937 /* Frameworks */,
+				7E58B53F282CD8770069B937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E58B543282CD8770069B937 /* PBXTargetDependency */,
+			);
+			name = SampleCernerFHIRAppUITests;
+			productName = SampleCernerFHIRAppUITests;
+			productReference = 7E58B541282CD8770069B937 /* SampleCernerFHIRAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E58B519282CD8740069B937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7E58B520282CD8740069B937 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					7E58B536282CD8770069B937 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7E58B520282CD8740069B937;
+					};
+					7E58B540282CD8770069B937 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7E58B520282CD8740069B937;
+					};
+				};
+			};
+			buildConfigurationList = 7E58B51C282CD8740069B937 /* Build configuration list for PBXProject "SampleCernerFHIRApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E58B518282CD8740069B937;
+			productRefGroup = 7E58B522282CD8740069B937 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7E58B555282CDAA20069B937 /* Products */;
+					ProjectRef = 7E58B554282CDAA20069B937 /* SwiftSMART.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7E58B520282CD8740069B937 /* SampleCernerFHIRApp */,
+				7E58B536282CD8770069B937 /* SampleCernerFHIRAppTests */,
+				7E58B540282CD8770069B937 /* SampleCernerFHIRAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7E58B55C282CDAA20069B937 /* SMART.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SMART.framework;
+			remoteRef = 7E58B55B282CDAA20069B937 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E58B55E282CDAA20069B937 /* SwiftSMART-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftSMART-iOSTests.xctest";
+			remoteRef = 7E58B55D282CDAA20069B937 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E58B560282CDAA20069B937 /* SMART.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SMART.framework;
+			remoteRef = 7E58B55F282CDAA20069B937 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7E58B562282CDAA20069B937 /* SwiftSMART-macOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftSMART-macOSTests.xctest";
+			remoteRef = 7E58B561282CDAA20069B937 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E58B51F282CD8740069B937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E58B531282CD8760069B937 /* LaunchScreen.storyboard in Resources */,
+				7E58B52E282CD8760069B937 /* Assets.xcassets in Resources */,
+				7E58B52C282CD8740069B937 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E58B535282CD8770069B937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E58B53F282CD8770069B937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E58B51D282CD8740069B937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E58B529282CD8740069B937 /* ViewController.swift in Sources */,
+				7E58B525282CD8740069B937 /* AppDelegate.swift in Sources */,
+				7E58B527282CD8740069B937 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E58B533282CD8770069B937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E58B53C282CD8770069B937 /* SampleCernerFHIRAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E58B53D282CD8770069B937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E58B548282CD8770069B937 /* SampleCernerFHIRAppUITestsLaunchTests.swift in Sources */,
+				7E58B546282CD8770069B937 /* SampleCernerFHIRAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E58B539282CD8770069B937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E58B520282CD8740069B937 /* SampleCernerFHIRApp */;
+			targetProxy = 7E58B538282CD8770069B937 /* PBXContainerItemProxy */;
+		};
+		7E58B543282CD8770069B937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E58B520282CD8740069B937 /* SampleCernerFHIRApp */;
+			targetProxy = 7E58B542282CD8770069B937 /* PBXContainerItemProxy */;
+		};
+		7E58B568282CDB4B0069B937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftSMART-iOS";
+			targetProxy = 7E58B567282CDB4B0069B937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E58B52A282CD8740069B937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E58B52B282CD8740069B937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E58B52F282CD8760069B937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E58B530282CD8760069B937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E58B549282CD8770069B937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E58B54A282CD8770069B937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E58B54C282CD8770069B937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleCernerFHIRApp/SampleCernerFHIRApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4DB8TLWA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleCernerFHIRApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mindteck.SampleCernerFHIRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E58B54D282CD8770069B937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleCernerFHIRApp/SampleCernerFHIRApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4DB8TLWA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleCernerFHIRApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mindteck.SampleCernerFHIRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E58B54F282CD8770069B937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4DB8TLWA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mindteck.SampleCernerFHIRAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleCernerFHIRApp.app/SampleCernerFHIRApp";
+			};
+			name = Debug;
+		};
+		7E58B550282CD8770069B937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4DB8TLWA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mindteck.SampleCernerFHIRAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleCernerFHIRApp.app/SampleCernerFHIRApp";
+			};
+			name = Release;
+		};
+		7E58B552282CD8770069B937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4DB8TLWA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mindteck.SampleCernerFHIRAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleCernerFHIRApp;
+			};
+			name = Debug;
+		};
+		7E58B553282CD8770069B937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4DB8TLWA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mindteck.SampleCernerFHIRAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleCernerFHIRApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E58B51C282CD8740069B937 /* Build configuration list for PBXProject "SampleCernerFHIRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E58B549282CD8770069B937 /* Debug */,
+				7E58B54A282CD8770069B937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E58B54B282CD8770069B937 /* Build configuration list for PBXNativeTarget "SampleCernerFHIRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E58B54C282CD8770069B937 /* Debug */,
+				7E58B54D282CD8770069B937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E58B54E282CD8770069B937 /* Build configuration list for PBXNativeTarget "SampleCernerFHIRAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E58B54F282CD8770069B937 /* Debug */,
+				7E58B550282CD8770069B937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E58B551282CD8770069B937 /* Build configuration list for PBXNativeTarget "SampleCernerFHIRAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E58B552282CD8770069B937 /* Debug */,
+				7E58B553282CD8770069B937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E58B519282CD8740069B937 /* Project object */;
+}
